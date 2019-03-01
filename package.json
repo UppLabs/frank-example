@@ -1,0 +1,44 @@
+{
+  "name": "frank",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node_modules/babel-cli/bin/babel.js ./ --source-maps --out-dir dist",
+    "start": "node_modules/nodemon/bin/nodemon.js -- node_modules/babel-cli/bin/babel-node.js server.js",
+    "eslint": "node_modules/.bin/eslint"
+  },
+  "dependencies": {
+    "@mapbox/react-native-mapbox-gl": "^6.0.3",
+    "axios": "^0.17.1",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.0-alpha.1",
+    "react-native": "0.54.1",
+    "react-native-autocomplete-input": "^3.5.0",
+    "react-native-cli": "^2.0.1",
+    "react-native-keyboard-aware-scroll-view": "^0.4.4",
+    "react-native-modal-selector": "0.0.25",
+    "react-native-router-flux": "^4.0.0-beta.28",
+    "react-native-slider": "^0.11.0",
+    "react-native-svg": "^5.4.1",
+    "react-native-tooltips": "0.0.4",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-form": "^7.3.0",
+    "redux-thunk": "^2.2.0",
+    "victory-core": "^20.6.0",
+    "victory-native": "^0.16.6"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "babel-jest": "21.2.0",
+    "babel-preset-react-native": "4.0.0",
+    "eslint": "^4.19.0",
+    "eslint-plugin-react": "^7.7.0",
+    "jest": "21.2.1",
+    "react-test-renderer": "16.0.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
