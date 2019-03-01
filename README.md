@@ -14,11 +14,6 @@ The following features are not implemented:
 * NoSQL database
 * Exact ending date for specific contract
 
-### Contributing Guidelines
-
-Frank's developers request that if you find a bug, to kindly submit an issue request with information about the bug. 
-One of our developers will be able to assist you.
-
 ### Licensing
 
 This project is currently under the M.I.T License.
